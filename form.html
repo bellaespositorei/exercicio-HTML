@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="form.html">Formulário</a>
+        </nav>
+    </header>
+    <form action="#" method="post">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Formulário de Cadastro</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nome:</td>
+                    <td><input type="text" name="nome" required></td>
+                </tr>
+                <tr>
+                    <td>Sobrenome:</td>
+                    <td><input type="text" name="sobrenome" required></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td>Telefone:</td>
+                    <td><input type="text" name="telefone" required></td>
+                </tr>
+                <tr>
+                    <td>Data de Nascimento:</td>
+                    <td><input type="date" name="data_nascimento" required></td>
+                </tr>
+                <tr>
+                    <td>Gênero:</td>
+                    <td>
+                        <input type="radio" name="genero" value="masculino"> Masculino
+                        <input type="radio" name="genero" value="feminino"> Feminino
+                        <input type="radio" name="genero" value="outro"> Outro
+                    </td>
+                </tr>
+                <tr>
+                    <td>Estado Civil:</td>
+                    <td>
+                        <select name="estado_civil">
+                            <option value="solteiro">Solteiro(a)</option>
+                            <option value="casado">Casado(a)</option>
+                            <option value="divorciado">Divorciado(a)</option>
+                            <option value="viuvo">Viúvo(a)</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Escolaridade:</td>
+                    <td>
+                        <select name="escolaridade" size="5">
+                            <option value="fundamental">Ensino Fundamental</option>
+                            <option value="medio">Ensino Médio</option>
+                            <option value="tecnico">Curso Técnico</option>
+                            <option value="superior">Ensino Superior</option>
+                            <option value="pos_graduacao">Pós-Graduação</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hobbies:</td>
+                    <td>
+                        <input type="checkbox" name="hobbies" value="esportes"> Esportes
+                        <input type="checkbox" name="hobbies" value="musica"> Música
+                        <input type="checkbox" name="hobbies" value="leitura"> Leitura
+                        <input type="checkbox" name="hobbies" value="viagens"> Viagens
+                        <input type="checkbox" name="hobbies" value="Outros"> Outros
+                    </td>
+                </tr>
+                <tr>
+                    <td>Endereço:</td>
+                    <td><input type="text" name="endereco" required></td>
+                </tr>
+                <tr>
+                    <td>Cidade:</td>
+                    <td><input type="text" name="cidade" required></td>
+                </tr>
+                <tr>
+                    <td>Estado:</td>
+                    <td><input type="text" name="estado" required></td>
+                </tr>
+                <tr>
+                    <td>CEP:</td>
+                    <td><input type="text" name="cep" required></td>
+                </tr>
+                <tr>
+                    <td>País:</td>
+                    <td><input type="text" name="pais" required></td>
+                </tr>
+                <tr>
+                    <td>Bairro:</td>
+                    <td><input type="text" name="bairro" required></td>
+                </tr>
+                <tr>
+                    <td>CPF:</td>
+                    <td><input type="text" name="cpf" required></td>
+                </tr>
+                <tr>
+                    <td>RG:</td>
+                    <td><input type="text" name="rg" required></td>
+                </tr>
+                <tr>
+                    <td>Observações:</td>
+                    <td><textarea name="observacoes" placeholder="Escreva algo..."></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="submit">Cadastrar</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
