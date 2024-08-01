@@ -7,6 +7,12 @@
     <title>Formulário</title>
 
     <link rel="stylesheet" href="./styles/styles.css">
+
+    <script>
+        function sendForm() {
+            alert("Formulário enviado!");
+        }
+    </script>
 </head>
 
 <body>
@@ -123,12 +129,14 @@
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <button type="submit">Cadastrar</button>
+                        <button type="submit" onclick="sendForm()">Cadastrar</button>
                     </td>
                 </tr>
             </tbody>
         </table>
     </form>
+
+
 </body>
 
 </html>
